@@ -1,0 +1,202 @@
+h1 {
+    font-family: 'Century Gothic';
+    color: blue;
+    font-size: 100px;
+    text-align: justify;
+    margin: 15px 10px 85px 70px;
+}
+h2 {
+    font-family: 'Century Gothic';
+    color: crimson;
+    margin: 20px 0 0 30px;
+    font-size: 2em;
+}
+h3 {
+    font-family: 'Century Gothic';
+    color: crimson;
+    font-size: 50px;
+    text-align: justify;
+    margin-left: 30px;
+    letter-spacing: 10px;
+}
+h4 {
+    font-family: 'Century Gothic';
+    color: crimson;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0px 4px 9px 30px;
+}
+body {
+    background-color: black;
+    margin: 250px 0 0 0 ;
+}
+.primeira img{
+    border: 4px solid aliceblue;
+    border-radius: 10px 40px 10px 40px;
+    width: 800px;
+    height: 480px;
+    transition-duration: .2s;
+}
+.segunda img{
+    border: 4px solid aliceblue;
+    border-radius: 10px 40px 10px 40px;
+    width: 400px;
+    height: 480px;
+    transition-duration: .2s;
+}
+.terceira img{
+    border: 4px solid aliceblue;
+    border-radius: 10px 40px 10px 40px;
+    width: 700px;
+    height: 480px;
+    transition-duration: .2s;
+}
+.quarta img{
+    border: 4px solid aliceblue;
+    border-radius: 10px 40px 10px 40px;
+    width: 800px;
+    height: 480px;
+    transition-duration: .2s;
+}
+.quinta img{
+    border: 4px solid aliceblue;
+    border-radius: 10px 40px 10px 40px;
+    width: 330px;
+    height: 480px;
+    transition-duration: .2s;
+}
+.sexta img{
+    border: 4px solid aliceblue;
+    border-radius: 10px 40px 10px 40px;
+    width: 530px;
+    height: 270px;
+    transition-duration: .2s;
+}
+img:hover{
+    scale: 1.02;
+}
+#bagr button{
+    background-color: white;
+    border: 4px solid crimson;
+    color: blue;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: orange;
+    border: 4px solid crimson;
+    border-radius: 1px 1px 1px 1px;
+    color: blue;
+    height: 50px;
+    width: 262px;
+    cursor: pointer;
+    transition-duration: .5s;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: white;
+    scale: 1.025;
+}
+
+p {
+    font-family: 'Century Gothic';
+    color: lightseagreen;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+p + p {
+    text-indent: 100px;
+    margin-top: 0; 
+}
+h6 {
+    font-family: 'Century Gothic';
+    color: lightsalmon;
+    text-align: center;
+    border: 1px aliceblue;
+}
+
+.primeira{
+    text-align: center;
+}
+.segunda{
+    text-align: center;
+}
+.terceira{
+    text-align: center;
+}
+.quarta{
+    text-align: center;
+}
+.quinta{
+    text-align: center;
+}
+.sexta{
+    text-align: center;
+}
+
+.quadrado {
+    width: auto;
+    height: 150px;
+    background-color: orange;
+    border-radius: 50px 50px 1px 1px;
+    border: 4px solid crimson;
+    margin: 5px;
+}
+#butoes {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: -15px 0;
+}
+#imgtext {
+    list-style-type: none;
+    display: flex;
+}
+#butoes li{
+    margin-inline: 6px;
+}
+#imgtext li{
+    margin-inline: 9px;
+}
+header {
+    position: fixed;
+    top: 0;
+    z-index: 300;
+}
+
+ul {
+    font-family: 'Century Gothic';
+    color:aliceblue;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:focus{
+    color: lightseagreen;
+}
+
+.departamentos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.departamentos li {
+    list-style-type: none;
+}
+
+#dep{
+    display: flex;
+    align-items: center;
+}
+
+#dep-container{
+    margin: 0 auto;
+}
